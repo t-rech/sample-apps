@@ -1,0 +1,3 @@
+reviews:
+  image: docker.io/istio/examples-bookinfo-reviews-v2
+  service: reviews.default.svc.cluster.local

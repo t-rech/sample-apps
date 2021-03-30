@@ -1,0 +1,10 @@
+spec:
+  namespace: bookinfo
+  destination:
+    server: https://kubernetes.default.svc
+  source:
+    repoURL: https://github.com/thiagonache/argocd-apps
+    revision: HEAD
+bookinfo:
+  namespace: bookinfo
+  appName: bookinfo
